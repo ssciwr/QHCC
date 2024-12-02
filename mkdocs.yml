@@ -3,3 +3,6 @@ site_url: https://ssciwr.github.io/QHCC
 repo_url: https://github.com/ssciwr/QHCC
 theme:
   name: material
+nav:
+  - Home: index.md
+  - Data: data.md
