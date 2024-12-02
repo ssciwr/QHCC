@@ -1,4 +1,5 @@
 site_name: Q-HCC
 site_url: https://ssciwr.github.io/QHCC
+repo_url: https://github.com/ssciwr/QHCC
 theme:
   name: material
