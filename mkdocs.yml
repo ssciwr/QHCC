@@ -3,6 +3,16 @@ site_url: https://ssciwr.github.io/QHCC
 repo_url: https://github.com/ssciwr/QHCC
 theme:
   name: material
+  features:
+    - content.code.copy
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
 nav:
   - Home: index.md
   - Data: data.md
