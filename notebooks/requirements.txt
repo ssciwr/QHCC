@@ -1,2 +1,3 @@
 pooch
 pandas
+jupyter
