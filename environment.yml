@@ -1,0 +1,8 @@
+name: QHCC
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pooch
+  - pandas
+  - jupyter
