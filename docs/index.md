@@ -7,5 +7,6 @@ Some text about what this is...
 Links to
 
 - jupyter notebooks that can be directly run on colab
-- docker version to run locally
+- docker image with all notebooks to run locally
+- huggingface?
 - ...
