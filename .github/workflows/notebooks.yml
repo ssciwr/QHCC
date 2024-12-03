@@ -1,6 +1,9 @@
-name: ci
+name: notebooks
 on:
   push:
+    branches:
+      - main
+  pull_request:
     branches:
       - main
 jobs:
@@ -13,6 +16,6 @@ jobs:
           python-version: "3.12"
       - run : |
           pip install uv
-          uv pip install --system -r requirements.txt
+          uv pip install --system -r notebooks/requirements.txt
       - run: |
           jupyter execute notebooks/example.ipynb
