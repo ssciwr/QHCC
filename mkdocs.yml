@@ -18,3 +18,4 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Data: data.md
+  - Models: models.md
