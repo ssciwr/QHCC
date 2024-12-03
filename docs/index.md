@@ -6,22 +6,56 @@ Some text about what this is...
 
 Our example notebook shows how you can download a dataset from heiData.
 
-### Online with Colab
+### Online
 
-You can run our example notebook online without installing anything locally using Google Colab (Google account required):
+You can run our example notebook online without installing anything on your computer.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ssciwr/QHCC/blob/main/notebooks/example.ipynb)
+<div class="grid cards" markdown>
 
-### Online with Binder
+-   __Google Colab__
 
-Alternatively you can run it online using Binder:
+    ---
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ssciwr/QHCC/HEAD?labpath=notebooks%2Fexample.ipynb)
+	[Open In Colab](https://colab.research.google.com/github/ssciwr/QHCC/blob/main/notebooks/example.ipynb){ .md-button }
 
-### Locally with Docker
+    (Google account required)
 
-todo
+-   __Binder__
+
+    ---
+
+	[Open in Binder](https://mybinder.org/v2/gh/ssciwr/QHCC/HEAD?labpath=notebooks%2Fexample.ipynb){ .md-button }
+</div>
 
 ### Locally
 
-todo
+Alternatively you can run it on your computer.
+
+First clone the repository using git:
+
+```bash
+git clone https://github.com/ssciwr/QHCC
+cd QHCC
+```
+
+Then install the required Python libraries and launch JupyterLab:
+
+=== "pip"
+    ```bash
+    pip install -r requirements.txt
+    jupyter lab notebooks/example.ipynb
+    ```
+
+=== "conda"
+    ```bash
+    conda env create -f environment.yml
+    conda activate QHCC
+    jupyter lab notebooks/example.ipynb
+    ```
+
+=== "micromamba"
+    ```bash
+    micromamba env create -f environment.yml
+    micromamba activate QHCC
+    jupyter lab notebooks/example.ipynb
+    ```
