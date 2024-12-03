@@ -16,6 +16,6 @@ jobs:
           python-version: "3.12"
       - run : |
           pip install uv
-          uv pip install --system -r notebooks/requirements.txt
+          uv pip install --system -r requirements.txt
       - run: |
           jupyter execute notebooks/example.ipynb
