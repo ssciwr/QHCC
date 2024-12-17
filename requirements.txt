@@ -1,0 +1,8 @@
+jupyter
+numpy
+pandas
+pooch
+pyradiomics
+simpleitk
+scikit-learn
+xgboost
