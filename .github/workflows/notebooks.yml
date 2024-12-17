@@ -29,7 +29,7 @@ jobs:
           jupyter execute notebooks/example.ipynb
       - name: Execute example scripts from ZhaoWenzhao/QHCC
         run: |
-          gh repo clone ZhaoWenzhao/QHCC
+          git clone https://github.com/ZhaoWenzhao/QHCC.git
           cd QHCC
           python demo_QHCC_XGBoost.py
   conda-forge:
@@ -57,6 +57,6 @@ jobs:
           jupyter execute notebooks/example.ipynb
       - name: Execute example scripts from ZhaoWenzhao/QHCC
         run: |
-          gh repo clone ZhaoWenzhao/QHCC
+          git clone https://github.com/ZhaoWenzhao/QHCC.git
           cd QHCC
           python demo_QHCC_XGBoost.py
