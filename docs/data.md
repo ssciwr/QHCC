@@ -4,7 +4,7 @@ Introduction to the provided datasets.
 
 ## heiData
 
-The datasets are stored on [heiData](https://heidata.uni-heidelberg.de/) which also provides a DOI.
+The datasets will be stored on [heiData](https://heidata.uni-heidelberg.de/) which also provides a DOI.
 
 Here is an example dataset: [doi:10.11588/data/TKCFEF](https://heidata.uni-heidelberg.de/dataset.xhtml?persistentId=doi:10.11588/data/TKCFEF)
 

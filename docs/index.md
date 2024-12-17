@@ -1,4 +1,4 @@
-# Welcome to Q-HCCC
+# Welcome to Q-HCC
 
 Some text about what this is...
 
