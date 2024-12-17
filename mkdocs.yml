@@ -21,3 +21,4 @@ nav:
   - Home: index.md
   - Data: data.md
   - Models: models.md
+  - Continuous Integration: ci.md

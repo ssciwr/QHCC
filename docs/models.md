@@ -3,6 +3,8 @@
 Example models and data are provided at [github.com/ZhaoWenzhao/QHCC](https://github.com/ZhaoWenzhao/QHCC).
 
 In order to run the provided example scripts, you will need to use Python 3.8 or 3.9, and install the required Python libraries.
+
+## pip & requirements.txt
 You can do this with pip, by first [downloading requirements.txt](requirements.txt) and then running:
 
 === "pip"
@@ -10,7 +12,9 @@ You can do this with pip, by first [downloading requirements.txt](requirements.t
     pip install -r requirements.txt
     ```
 
-Or with conda or micromamba, by first [downloading environment.yml](environment.yml) and then running:
+## conda & environment.yml
+
+You could also use conda or micromamba, by first [downloading environment.yml](environment.yml) and then running:
 
 === "conda"
     ```bash
@@ -23,6 +27,8 @@ Or with conda or micromamba, by first [downloading environment.yml](environment.
     micromamba env create -f environment.yml
     micromamba activate QHCC
     ```
+
+## direct pip/conda
 
 Alternatively you can install the required Python libraries directly:
 
