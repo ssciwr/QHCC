@@ -1,8 +1,13 @@
 name: QHCC
 channels:
   - conda-forge
+  - radiomics
 dependencies:
-  - python
-  - pooch
-  - pandas
   - jupyter
+  - numpy
+  - pandas
+  - pooch
+  - python
+  - pyradiomics
+  - simpleitk
+  - scikit-learn

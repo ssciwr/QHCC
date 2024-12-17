@@ -1,3 +1,7 @@
-pooch
-pandas
 jupyter
+numpy
+pandas
+pooch
+pyradiomics
+simpleitk
+sklearn
