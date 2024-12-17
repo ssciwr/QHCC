@@ -45,9 +45,13 @@ jobs:
         shell: bash -leo pipefail {0}
     steps:
       - uses: actions/checkout@v4
-      - uses: mamba-org/setup-micromamba@v1
+      - uses: mamba-org/setup-micromamba@v2
         with:
           environment-file: environment.yml
+          condarc: |
+            channels:
+              - conda-forge
+              - radiomics
       - name: Execute example notebooks
         run: |
           jupyter execute notebooks/example.ipynb
