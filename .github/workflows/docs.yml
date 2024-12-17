@@ -25,4 +25,5 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-material
+      - run: cp requirements.txt environment.yml docs/.
       - run: mkdocs gh-deploy --force

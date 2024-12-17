@@ -2,7 +2,29 @@
 
 Example models and data are provided at [github.com/ZhaoWenzhao/QHCC](https://github.com/ZhaoWenzhao/QHCC).
 
-In order to run the provided example scripts, you will need to use Python 3.8 or 3.9, and install the required Python libraries:
+In order to run the provided example scripts, you will need to use Python 3.8 or 3.9, and install the required Python libraries.
+You can do this with pip, by first [downloading requirements.txt](requirements.txt) and then running:
+
+=== "pip"
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+Or with conda or micromamba, by first [downloading environment.yml](environment.yml) and then running:
+
+=== "conda"
+    ```bash
+    conda env create -f environment.yml
+    conda activate QHCC
+    ```
+
+=== "micromamba"
+    ```bash
+    micromamba env create -f environment.yml
+    micromamba activate QHCC
+    ```
+
+Alternatively you can install the required Python libraries directly:
 
 === "pip"
     ```bash
@@ -11,12 +33,12 @@ In order to run the provided example scripts, you will need to use Python 3.8 or
 
 === "conda"
     ```bash
-    conda env create -n QHCC2 jupyter numpy pandas pooch python radiomics::pyradiomics simpleitk scikit-learn xgboost -c conda-forge -c radiomics
+    conda env create -n QHCC jupyter numpy pandas pooch python radiomics::pyradiomics simpleitk scikit-learn xgboost -c conda-forge -c radiomics
     conda activate QHCC
     ```
 
 === "micromamba"
     ```bash
-    micromamba env create -n QHCC2 jupyter numpy pandas pooch python radiomics::pyradiomics simpleitk scikit-learn xgboost -c conda-forge -c radiomics
+    micromamba env create -n QHCC jupyter numpy pandas pooch python radiomics::pyradiomics simpleitk scikit-learn xgboost -c conda-forge -c radiomics
     micromamba activate QHCC
     ```
