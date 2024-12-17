@@ -8,7 +8,7 @@ dependencies:
   - pandas
   - pooch
   - python
-  - pyradiomics
+  - radiomics::pyradiomics
   - simpleitk
   - scikit-learn
   - xgboost
