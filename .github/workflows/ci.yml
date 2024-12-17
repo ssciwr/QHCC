@@ -1,4 +1,4 @@
-name: notebooks
+name: ci
 on:
   push:
     branches:
