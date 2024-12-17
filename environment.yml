@@ -11,3 +11,4 @@ dependencies:
   - pyradiomics
   - simpleitk
   - scikit-learn
+  - xgboost
