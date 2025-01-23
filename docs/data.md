@@ -1,6 +1,6 @@
 # Data
 
-Introduction to the provided datasets.
+Q-HCC - Quality-assured data set for hepatocellular carcinoma.
 
 ## heiData
 
