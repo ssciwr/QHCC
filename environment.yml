@@ -10,5 +10,5 @@ dependencies:
   - python
   - radiomics::pyradiomics
   - simpleitk
-  - scikit-learn
+  - scikit-learn<1.6
   - xgboost

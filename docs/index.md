@@ -1,6 +1,10 @@
 # Welcome to Q-HCC
 
-Some text about what this is...
+The objective of this project is to provide a baseline for performing multi-modal data classification on a novel open multimodal dataset of hepatocellular carcinoma (HCC).
+
+To learn more about the models and how to run them yourself, see the [models](models.md) page.
+
+To learn more about the data and how to download it, see the [data](data.md) page.
 
 ## Quickstart
 

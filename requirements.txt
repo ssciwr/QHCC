@@ -4,5 +4,5 @@ pandas
 pooch
 pyradiomics
 simpleitk
-scikit-learn
+scikit-learn<1.6
 xgboost
