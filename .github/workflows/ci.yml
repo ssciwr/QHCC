@@ -33,7 +33,7 @@ jobs:
         run: |
           git clone https://github.com/ZhaoWenzhao/QHCC.git
           cd QHCC
-          python demo_QHCC_XGBoost.py
+          python demo_QHCC_XGBoost_comb.py
   conda-forge:
     strategy:
       fail-fast: false
@@ -61,4 +61,4 @@ jobs:
         run: |
           git clone https://github.com/ZhaoWenzhao/QHCC.git
           cd QHCC
-          python demo_QHCC_XGBoost.py
+          python demo_QHCC_XGBoost_comb.py
