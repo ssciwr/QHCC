@@ -36,17 +36,17 @@ Alternatively you can install the required Python libraries directly:
 
 === "pip"
     ```bash
-    pip install jupyter numpy pandas pooch pyradiomics simpleitk scikit-learn xgboost
+    pip install jupyter numpy pandas pooch pyradiomics simpleitk "scikit-learn<1.6" xgboost
     ```
 
 === "conda"
     ```bash
-    conda env create -n QHCC jupyter numpy pandas pooch python radiomics::pyradiomics simpleitk scikit-learn xgboost -c conda-forge -c radiomics
+    conda env create -n QHCC jupyter numpy pandas pooch python radiomics::pyradiomics simpleitk "scikit-learn<1.6" xgboost -c conda-forge -c radiomics
     conda activate QHCC
     ```
 
 === "micromamba"
     ```bash
-    micromamba env create -n QHCC jupyter numpy pandas pooch python radiomics::pyradiomics simpleitk scikit-learn xgboost -c conda-forge -c radiomics
+    micromamba env create -n QHCC jupyter numpy pandas pooch python radiomics::pyradiomics simpleitk "scikit-learn<1.6" xgboost -c conda-forge -c radiomics
     micromamba activate QHCC
     ```
