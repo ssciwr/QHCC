@@ -4,11 +4,9 @@ Q-HCC - Quality-assured data set for hepatocellular carcinoma.
 
 ## heiData
 
-The datasets will be stored on [heiData](https://heidata.uni-heidelberg.de/) which also provides a DOI.
+The dataset is available on heiDAta: [doi:10.11588/DATA/IKFTTQ](https://heidata.uni-heidelberg.de/dataset.xhtml?persistentId=doi:10.11588/DATA/IKFTTQ)
 
-Here is an example dataset: [doi:10.11588/data/TKCFEF](https://heidata.uni-heidelberg.de/dataset.xhtml?persistentId=doi:10.11588/data/TKCFEF)
-
-One way to download this dataset is to go to the link, click "Access Dataset", then "Download ZIP".
+One way to download this dataset is to go to the link, then click on the CTimage.zip file, then "Access file" to download the zipfile.
 
 However if you are then going to use the data from a Python script or jupyter notebook then consider using the [Pooch](https://www.fatiando.org/pooch/latest/) library instead.
 
@@ -26,11 +24,11 @@ However if you are then going to use the data from a Python script or jupyter no
     conda install pooch
     ```
 
-To download the example dataset from heiData using Pooch:
+To download the dataset from heiData using Pooch:
 
 ```python
-from pooch import DOIDownloader
+import pooch
 
-downloader = DOIDownloader()
-downloader("doi:10.11588/data/TKCFEF/tiny-data.txt", output_file="tiny_data.txt", pooch=None)
+downloader = pooch.DOIDownloader()
+downloader("doi:10.11588/data/IKFTTQ/CTimage.zip", output_file="CTimage.zip", pooch=None)
 ```

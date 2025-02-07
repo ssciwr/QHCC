@@ -8,7 +8,7 @@ To learn more about the data and how to download it, see the [data](data.md) pag
 
 ## Quickstart
 
-Our example notebook shows how you can download a dataset from heiData.
+Our example notebook shows how you can download the dataset from heiData.
 
 ### Online
 

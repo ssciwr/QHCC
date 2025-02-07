@@ -41,7 +41,7 @@ jobs:
         os: ["ubuntu-latest", "macos-13"]
     runs-on: ${{ matrix.os }}
     name: "${{ matrix.os }} :: conda-forge"
-    timeout-minutes: 15
+    timeout-minutes: 45
     defaults:
       run:
         shell: bash -leo pipefail {0}
